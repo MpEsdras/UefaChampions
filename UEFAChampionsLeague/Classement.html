@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>UefaClassment</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    header{
+        background-color: rgb(2, 2, 107);
+    }
+    body{
+    background-color: rgb(67, 163, 241);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: none;
+}
+
+.result {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
+
+.win {
+  background-color: green;
+  color: white;
+}
+
+.draw {
+  background-color: rgb(211, 16, 16);
+}
+
+.loss {
+  background-color: red;
+  color: white;
+}   
+.menu{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    color:rgb(253, 249, 249);
+    
+} 
+.B{
+    background-color: NONE ;
+    height: 70px;
+   padding: 50px;
+   font-size: 18px;
+   
+    
+}
+.image{
+    width: 150px;
+    position: absolute;
+    top: 23px;
+    left: 35px;
+    border-radius: 20px;
+}
+.plus{
+   
+}
+#h3{
+    position: absolute;
+    top: 33px;
+    left: 1350px;
+    font-size: 20px;
+    border: solid rgb(248, 240, 240) 3px;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(246, 250, 253);
+}
+#h4{
+    position: absolute;
+    top: 200px;
+    font-size: 25px;
+}
+
+
+.o{
+ height: 10%;
+ font-size: 10px;
+}
+
+#wezombi{
+    color: black;
+    width: 200px;
+}
+.menu:hover {
+        color: rgb(0, 110, 255);
+        font-size: 25px;
+        cursor: pointer;
+    }
+#Believe{
+background-color: rgb(2, 2, 107); 
+border: solid rgb(0, 255, 64);
+}
+.phototable ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+  
+}
+.footer-container{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Pied{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+    </style>
+</head>
+<body>  
+    <header id="Believe">
+        
+        <nav>
+            <center>
+                <div class="B">
+                    <a href="Accueil.html" class="menu" >UEFAChampionsLeague</a>
+                    <a href="Classement.html" class="menu" >classement</a>
+                    <a href="Equipes.html" class="menu" target="_blank">Equipes</a>
+                    <a href="Video.html" class="menu" >Videos</a>
+                    <a href="Infos.html" class="menu" >Infos</a>
+                    <a href="Matches.html" class="menu">Matches</a>
+                    <a href="Jeux.html" class="menu" >Jeux</a></div>
+                
+            </center>
+            <h3 id="h3">Favourite team  <a href="" class="plus"><i class="fas fa-circle-plus"></i></a> </h3>
+
+          
+        </nav>
+     <img src="champion league logo.jpeg.jpg" alt="image non telecharge"  class="image">
+       
+    </header>
+    <table>
+  <thead>
+    <h1>classement de la ligue des champions</h1>
+    <tr> 
+        <th>classement de la ligue</th>
+    </tr><br><br>
+    <tr>
+      <th></th>
+      <th>Équipe</th>
+      <th>Joués</th>
+      <th>Victoires</th>
+      <th>Nuls</th>
+      <th>Défaites</th>
+      <th>BP</th>
+      <th>BC</th>
+      <th>Diff</th>
+      <th>Points</th>
+      <th>Derniers résultats</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Liverpool</td>
+      <td>6</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>13</td>
+      <td>1</td>
+      <td>12</td>
+      <td>18</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Barcelona</td>
+      <td>6</td>
+      <td>5</td>
+      <td>0</td>
+      <td>1</td>
+      <td>21</td>
+      <td>7</td>
+      <td>14</td>
+      <td>15</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Arsenal</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>11</td>
+      <td>2</td>
+      <td>9</td>
+      <td>13</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>liverkousen</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>12</td>
+      <td>5</td>
+      <td>7</td>
+      <td>13</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>aston villa</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>9</td>
+      <td>3</td>
+      <td>6</td>
+      <td>13</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>inter</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>7</td>
+      <td>1</td>
+      <td>6</td>
+      <td>13</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Brest</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>10</td>
+      <td>6</td>
+      <td>4</td>
+      <td>1</td>
+      <td><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span><span class="result win"></span></td>
+    </tr>
+    </tbody>
+</table>
+<div class="Pied">
+    <img src="table 1.png" class="image/table" alt="no telechargable">
+</div>
+<div class="phototable">
+       <ul>
+           <li><img src="heineken.png" alt="heineken"></li>
+           <li><img src="logo2.png" alt="PlayStation"></li>
+           <li><img src="logo3.png" alt="Lay's"></li>
+           <li><img src="logo4.png" alt="FedEx"></li>
+           <li><img src="logo5.png" alt="Mastercard"></li>
+           <li><img src="logo6.png" alt="Crypto.com"></li>
+           <li><img src="logo7.png" alt="bet365"></li>
+           <li><img src="logo8.png" alt="Just Eat Takeaway.com"></li>
+           <li><img src="logo9.png" alt="Qatar Airways"></li>
+        </ul>  
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2>Champions League</h2>
+          <ul>
+            <li><a href="#">Matchs</a></li>
+            <li><a href="#">Classement</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <h2>Équipes</h2>
+          <ul class="A">
+            <li><a href="#">Infos </a></li>
+            <li><a href="#">Histoire</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+          <h2>Langues</h2>
+          <ul>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        <div class="footer-bottom">
+          <p>&copy; 1998-2024 UEFA. Tous droits réservés.</p>
+          <ul>
+            <li><a href="#">Vie privée</a></li>
+            <li><a href="#">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+      </div>
+    </footer> 
+</body>
+</html>
